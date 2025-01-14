@@ -2,7 +2,13 @@
 
 Here in the below example we see that the padding of the structure depend on the largest data type present in the structure.
 
+
+
 ```
+/* This code doesn't contain any structure padding enabled. It has to be enabled by uncommenting these macros:  */
+#define STRUCT_PAD_4BYTES
+#define STRUCT_PAD_1BYTES
+
 // Structure size without padding
 typedef struct {
     signed long int value1;

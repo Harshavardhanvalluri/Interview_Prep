@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 //#define STRUCT_PAD_4BYTES
-#define STRUCT_PAD_1BYTES
+//#define STRUCT_PAD_1BYTES
 
 #if defined(STRUCT_PAD_4BYTES)
 typedef struct __attribute__((packed, aligned(4))) {

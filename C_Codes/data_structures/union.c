@@ -1,16 +1,17 @@
 #include <stdio.h>
 
-typedef union data_st{
-    char data_2;
-    char val;
-}data_st;
+typedef union {
+    signed long int value1;
+    char name;
+    double Double; 
+    float value2;
+} structure;
 
 int main()
 {
-    data_st data;
+    structure data;
 
-    printf("%d ", data.data_2);
-    printf("%ld", sizeof(data));
+    printf("union size: %ld \n", sizeof(data));
 
     return 0;
 }

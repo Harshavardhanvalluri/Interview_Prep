@@ -1,3 +1,4 @@
+// Basics of function pointer
 #include <stdio.h>
 
 typedef int (*add_callback)(int , int);

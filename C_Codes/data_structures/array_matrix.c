@@ -1,4 +1,4 @@
-// Online C compiler to run C program online
+// This code is used to create a 2D matrix array allocation
 #include <stdio.h>
 #include <stdlib.h>
 
